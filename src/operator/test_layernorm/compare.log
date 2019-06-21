@@ -1,0 +1,16 @@
+master branch:
+shape: [1, 128, 768],   time: 0.148154 ms
+shape: [8, 128, 768],   time: 0.296437 ms
+shape: [32, 128, 768],  time: 0.790932 ms
+shape: [1, 128, 1024],  time: 0.237234 ms
+shape: [8, 128, 1024],  time: 0.553549 ms
+shape: [32, 128, 1024],         time: 1.765041 ms
+
+opt_layernorm branch:
+shape: [1, 128, 768],   time: 0.064805 ms
+shape: [8, 128, 768],   time: 0.198420 ms
+shape: [32, 128, 768],  time: 0.439751 ms
+shape: [1, 128, 1024],  time: 0.121733 ms
+shape: [8, 128, 1024],  time: 0.430842 ms
+shape: [32, 128, 1024],         time: 1.359872 ms
+
